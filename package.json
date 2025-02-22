@@ -1,0 +1,24 @@
+{
+  "name": "media_pad_ai_agent_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.22.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "openai": "^4.85.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
